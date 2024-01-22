@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-@app.route('/fruits', methods=['GET'])
+@app.route('/stock', methods=['GET'])
 def get_fruits():
     url = "https://blox-fruits.fandom.com/api.php?action=query&prop=revisions&titles=Blox_Fruits_%22Stock%22&rvprop=content&format=json"
 
